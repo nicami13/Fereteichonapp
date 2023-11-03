@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\Fereteichonapp.csproj": {}
+    "I:\\Escritorio\\Fereteichonapp\\Fereteichonapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\Fereteichonapp.csproj": {
+    "I:\\Escritorio\\Fereteichonapp\\Fereteichonapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\Fereteichonapp.csproj",
+        "projectUniqueName": "I:\\Escritorio\\Fereteichonapp\\Fereteichonapp.csproj",
         "projectName": "Fereteichonapp",
-        "projectPath": "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\Fereteichonapp.csproj",
-        "packagesPath": "C:\\Users\\APM02-65\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\obj\\",
+        "projectPath": "I:\\Escritorio\\Fereteichonapp\\Fereteichonapp.csproj",
+        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
+        "outputPath": "I:\\Escritorio\\Fereteichonapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-65\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

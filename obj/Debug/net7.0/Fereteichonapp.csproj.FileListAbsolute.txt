@@ -12,3 +12,17 @@ C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\refint\Fereteichonapp.
 C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.pdb
 C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.genruntimeconfig.cache
 C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\ref\Fereteichonapp.dll
+I:\Escritorio\Fereteichonapp\bin\Debug\net7.0\Fereteichonapp.exe
+I:\Escritorio\Fereteichonapp\bin\Debug\net7.0\Fereteichonapp.deps.json
+I:\Escritorio\Fereteichonapp\bin\Debug\net7.0\Fereteichonapp.runtimeconfig.json
+I:\Escritorio\Fereteichonapp\bin\Debug\net7.0\Fereteichonapp.dll
+I:\Escritorio\Fereteichonapp\bin\Debug\net7.0\Fereteichonapp.pdb
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.GeneratedMSBuildEditorConfig.editorconfig
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.AssemblyInfoInputs.cache
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.AssemblyInfo.cs
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.csproj.CoreCompileInputs.cache
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.dll
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\refint\Fereteichonapp.dll
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.pdb
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.genruntimeconfig.cache
+I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\ref\Fereteichonapp.dll
