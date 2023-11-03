@@ -14,12 +14,15 @@ internal class Program
     {
         int ConProducto = 0;
         int ConCliente = 0;
+        int ConDetail = 0;
         List<Factura> facturas = new List<Factura>();
         List<Producto> Productos = new List<Producto>();
         List<Cliente> clientes = new List<Cliente>();
+        List<DetalleFactura> detalleFacturas= new List<DetalleFactura>();
         LinqProduct linqProduct = new LinqProduct();
         LinqFacture linqFacture = new LinqFacture();
         LinqCliente linqCliente = new LinqCliente();
+        LinqDetailFacture linqDetailFacture = new LinqDetailFacture();
         bool continuar = true;
 
         while (continuar)
@@ -33,7 +36,9 @@ internal class Program
             System.Console.WriteLine("6. Listar Productos");
             System.Console.WriteLine("7. Listar Productos Agotados");
             System.Console.WriteLine("8. Listar Productos A Comprar");
-            Console.WriteLine("9. Salir");
+            System.Console.WriteLine("9. Ingresar Detalle De Factura");
+            System.Console.WriteLine("t. Total De inventario");
+            Console.WriteLine("0. Salir");
             Console.Write("Elija una opción: ");
 
             string opcion = Console.ReadLine();
@@ -55,8 +60,8 @@ internal class Program
                     linqFacture.MostrarFacturas(facturas);
                     break;
                 case "4":
-                    Console.WriteLine("Opción 4: Ver Facturas Antiguas");
-                    linqFacture.MostrarFacturas(facturas);
+                    Console.WriteLine("Opción 4: Ver Facturas De Eneroñ");
+                    linqFacture.SeeOldFacture(facturas);
                     break;
                 case "5":
                     Console.WriteLine("Opción 5: Ingresar Cliente");
@@ -78,6 +83,15 @@ internal class Program
                     break;
 
                 case "9":
+                    Console.WriteLine("Opcion 9: Crear Detalle de Factura");
+                    linqDetailFacture.ProduceDetailFacture(detalleFacturas,Productos,facturas,ConDetail);
+                    ConDetail+=1;
+                    break;
+                case"t":
+                    linqProduct.InventoryPriceTotal(Productos);
+                break;
+
+                case "0":
                     Console.WriteLine("Saliendo del programa.");
                     continuar = false;
                     break;

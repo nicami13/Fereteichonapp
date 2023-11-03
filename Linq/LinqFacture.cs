@@ -57,10 +57,9 @@ namespace Fereteichonapp.Linq
     public void SeeOldFacture(List<Factura>facturas){
     DateOnly OldDate = DateOnly.FromDateTime(new DateTime(2023, 01, 01));
 
-    var result = facturas.Where(factura => factura.Fecha < OldDate);
+    var result = facturas.Where(factura => factura.Fecha.Month == 1 && factura.Fecha.Year == 2023).ToList();
 
-    foreach (var factura in result)
-    {
+    foreach (var factura in result) {
         Console.WriteLine($"Número de Factura: {factura.NR_Facture}");
         Console.WriteLine($"Fecha de Realización: {factura.Fecha}");
         Console.WriteLine($"Cliente: ID: {factura.IDCliente}");

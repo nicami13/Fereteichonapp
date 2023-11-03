@@ -43,10 +43,11 @@ namespace Fereteichonapp.Linq
                 Console.WriteLine("-------------------------------");
             }
         }
-        public void ListerSpentProducts(List<Producto> productos){
+        public void ListerSpentProducts(List<Producto> productos)
+        {
             Console.WriteLine("Productos Agotados");
             Console.WriteLine(" ");
-            var result=(from s in productos where s.Amount<s.StockMin select s).ToList <Producto>();
+            var result = (from s in productos where s.Amount < s.StockMin select s).ToList<Producto>();
             foreach (var producto in productos)
             {
                 Console.WriteLine($"ID: {producto.ID}");
@@ -56,16 +57,20 @@ namespace Fereteichonapp.Linq
                 Console.WriteLine($"StockMin: {producto.StockMin}");
                 Console.WriteLine($"StockMax: {producto.StockMax}");
                 Console.WriteLine("-------------------------------");
-            }    
+            }
         }
-        public void ListerBuyProducts(List<Producto> productos){
+        public void ListerBuyProducts(List<Producto> productos)
+        {
             Console.WriteLine("Productos A Comprar");
             Console.WriteLine(" ");
-            var result=(from s in productos where s.Amount<s.StockMin select new ProductoAComprar(){
-                Producto=s,
-                Total=s.Amount
+            var result = (from s in productos
+                          where s.Amount < s.StockMin
+                          select new ProductoAComprar()
+                          {
+                              Producto = s,
+                              Total = s.Amount
 
-            }).ToList<ProductoAComprar>();
+                          }).ToList<ProductoAComprar>();
             foreach (var producto in result)
             {
                 System.Console.WriteLine($"Name:{producto.Producto.Name}");
@@ -75,14 +80,27 @@ namespace Fereteichonapp.Linq
                 System.Console.WriteLine($"StockMin:{producto.Producto.StockMin}");
                 System.Console.WriteLine($"StockMax:{producto.Producto.StockMax}");
                 System.Console.WriteLine($"Cantidad A Comprar:{producto.Total}");
-                
 
 
-                
-            }    
+
+
+            }
+        }
+        public void InventoryPriceTotal(List<Producto> productos)
+        {
+
+            double restTOrest=0;
+            foreach (var producto in productos)
+            {
+                double result = producto.Amount * producto.PriceUnit;
+                 restTOrest+=result;
+            }
+            Console.WriteLine($"EL VALOR TOTAL DE INVENTARIO ES:{restTOrest}");
+
         }
 
-        
+
+
 
     }
 }
