@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nhzCl22hssIc94u8mXOdFq30TyZPDSSl5ihgkgG3nBnmdbhG+ybS6PbZayuJT9GCnGUBwJ7V4qrW2opeLIrLOw==",
+  "dgSpecHash": "hVdeY4BBQVvGFGciQ8xUA1S4W1ZL2/QRzkNG9ZnLzc7psI9lkpzAF+lZSX8T8A79pFHGJwho5vKoOn6/ERG00A==",
   "success": true,
   "projectFilePath": "C:\\Users\\APM02-65\\Desktop\\Fereteichonapp\\Fereteichonapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\APM02-65\\.nuget\\packages\\betterconsoletables\\1.1.3\\betterconsoletables.1.1.3.nupkg.sha512"
+  ],
   "logs": []
 }

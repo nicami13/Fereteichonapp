@@ -26,3 +26,6 @@ I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\refint\Fereteichonapp.dll
 I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.pdb
 I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.genruntimeconfig.cache
 I:\Escritorio\Fereteichonapp\obj\Debug\net7.0\ref\Fereteichonapp.dll
+C:\Users\APM02-65\Desktop\Fereteichonapp\bin\Debug\net7.0\BetterConsoleTables.dll
+C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.csproj.AssemblyReference.cache
+C:\Users\APM02-65\Desktop\Fereteichonapp\obj\Debug\net7.0\Fereteichonapp.csproj.CopyComplete

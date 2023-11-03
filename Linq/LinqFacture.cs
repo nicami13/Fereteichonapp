@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BetterConsoleTables;
 using Ferreteaichonapp;
 
 namespace Fereteichonapp.Linq
@@ -76,5 +77,6 @@ namespace Fereteichonapp.Linq
                 }
             ).ToList();
         }
+    
     }
 }

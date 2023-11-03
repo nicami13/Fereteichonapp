@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Fereteichonapp.entities;
 using Ferreteaichonapp;
+using BetterConsoleTables;
 
 namespace Fereteichonapp.Linq
 {
@@ -89,18 +90,19 @@ namespace Fereteichonapp.Linq
         public void InventoryPriceTotal(List<Producto> productos)
         {
 
-            double restTOrest=0;
+            double restTOrest = 0;
             foreach (var producto in productos)
             {
                 double result = producto.Amount * producto.PriceUnit;
-                 restTOrest+=result;
+                restTOrest += result;
             }
             Console.WriteLine($"EL VALOR TOTAL DE INVENTARIO ES:{restTOrest}");
 
         }
-
-
-
-
+        
     }
+
+
+
+
 }

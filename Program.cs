@@ -87,6 +87,8 @@ internal class Program
                 case "9":
                     Console.WriteLine("Opcion 9: Crear Detalle de Factura");
                     linqDetailFacture.ProduceDetailFacture(detalleFacturas,Productos,facturas,ConDetail);
+                    linqDetailFacture.factureProducts(ConDetail,facturas,detalleFacturas,Productos);
+                    
                     ConDetail+=1;
                     break;
                 case"t":
