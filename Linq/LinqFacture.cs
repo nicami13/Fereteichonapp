@@ -8,7 +8,7 @@ namespace Fereteichonapp.Linq
 {
     public class LinqFacture
     {
- public void ProduceFacture(List<Factura> facturas, List<Cliente> clientes)
+ public void ProduceFacture(List<Factura> facturas, List<Cliente> clientes,int id)
     {
         Factura factura = new Factura();
         Program program = new Program();
@@ -19,7 +19,7 @@ namespace Fereteichonapp.Linq
         Console.Write("Ingresar Año De La Realización De La Factura: ");
         int año = Convert.ToInt32(Console.ReadLine());
         factura.Fecha = DateOnly.FromDateTime(new DateTime(año, mes, dia));
-        factura.NR_Facture = program.GenFacture();
+        factura.NR_Facture = program.GenFacture(id);
 
         Console.WriteLine("Clientes disponibles:");
         foreach (var cliente in clientes)

@@ -9,7 +9,7 @@ namespace Ferreteaichonapp
     {
         //  NRO FACT,FECHA,IDCLIENTE,    TOTAL FACTURA
 
-        public string ? NR_Facture {get; set;} 
+        public int NR_Facture {get; set;} 
         public DateOnly Fecha {get; set;}
         public int IDCliente { get; set; }
         public int Total { get; set; }

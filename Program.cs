@@ -3,11 +3,11 @@ using Ferreteaichonapp;
 
 internal class Program
 {
-    public string GenFacture()
+    public int GenFacture(int id)
     {
         Random random = new Random();
-        int CodigoFactura = random.Next(1000, 100000);
-        string facture = "FACT-" + CodigoFactura.ToString();
+        int CodigoFactura = id;
+        int facture = CodigoFactura;
         return facture;
     }
     private static void Main(string[] args)
@@ -15,6 +15,7 @@ internal class Program
         int ConProducto = 0;
         int ConCliente = 0;
         int ConDetail = 0;
+        int conFacture=0;
         List<Factura> facturas = new List<Factura>();
         List<Producto> Productos = new List<Producto>();
         List<Cliente> clientes = new List<Cliente>();
@@ -53,7 +54,8 @@ internal class Program
 
                 case "2":
                     Console.WriteLine("Opción 2: Ingresar Factura");
-                    linqFacture.ProduceFacture(facturas, clientes);
+                    linqFacture.ProduceFacture(facturas, clientes,conFacture);
+                    conFacture+=1;
                     break;
                 case "3":
                     Console.WriteLine("Opción 3: Ver Facturas");
